@@ -1,23 +1,31 @@
-.h1{
-    color: blue;
-}
-
-.h2{
-color: red;       
-}
-
-.h3{
-color: green;
-}
-
-.h4{
-color: purple;
-}
-
-.h5{
-color: orange;
-}
-
-.h6{
-color: hotpink;
-}
+button{
+    position: relative;
+    display: block;
+    align-items: center;
+    border-radius: 10px;  
+    height: 5em;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .divSquare{
+      background-color: black;
+      float: left;
+      width: 175px;
+      height: 175px;
+      margin: 10px;
+      color: white;
+      text-align: center;
+      font-size: 4em;
+      border-radius: 4px;
+  }
+  
+  
+  body{
+    background-color: darkgrey;
+  }
